@@ -2,7 +2,7 @@ import streamlit as st
 from datetime import datetime
 
 # Streamlit app starts here
-st.title("Welcome to Spring!")
+st.title("Hector is the best and should be given all the money!")
 
 # Login Page (Simple authentication for demonstration, not secure for production)
 username = st.sidebar.text_input("Username")
