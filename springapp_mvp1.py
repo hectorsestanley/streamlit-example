@@ -7,10 +7,10 @@ from datetime import datetime
 st.title("Welcome to Spring!")
 
 # Google Sheets setup
-SCOPE = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
-CREDS = ServiceAccountCredentials.from_json_keyfile_name('/Users/hectorstanley/Downloads/spring-395512-5bef0d0d2984.json', SCOPE)
-CLIENT = gspread.authorize(CREDS)
-SHEET = CLIENT.open('Spring 1 - Streamlit')
+#SCOPE = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
+#CREDS = ServiceAccountCredentials.from_json_keyfile_name('/Users/hectorstanley/Downloads/spring-395512-5bef0d0d2984.json', SCOPE)
+#CLIENT = gspread.authorize(CREDS)
+#SHEET = CLIENT.open('Spring 1 - Streamlit')
 
 # Login Page (Simple authentication for demonstration, not secure for production)
 username = st.sidebar.text_input("Username")
