@@ -4,7 +4,7 @@ import gspread
 from datetime import datetime
 
 # Streamlit app starts here
-st.title("Hector is the best and should be given all the money!")
+st.title("Welcome to Spring!")
 
 # Login Page (Simple authentication for demonstration, not secure for production)
 username = st.sidebar.text_input("Username")
